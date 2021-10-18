@@ -1,0 +1,309 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid System part 2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      section {
+        padding: 60px 0;
+      }
+      .navbar {
+        background: linear-gradient(to right, black, rgb(161, 0, 0));
+        position: fixed;
+        width: 100%;
+      }
+      #intro {
+        background-image: url(./gsmarena_001.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+      }
+      .head{
+        background: -webkit-linear-gradient(rgb(161, 0, 0), black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip:transparent;
+      }
+    </style>
+  </head>
+  <body class="bg-dark">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./index.png " height="50px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-secondary"
+                aria-current="page"
+                href="#intro"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#Pricing">Phones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#About">Accessories</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-secondary"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown link
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br /><br /><br />
+    <!-- main image & intro text -->
+    <section id="intro">
+      <div>
+        <h1 class="text-white">Red Magic 6S pro</h1>
+        <h2 class="text-white">Low prices</h2>
+        <p class="text-white">discover a whole new feel of speed</p>
+        <h2 class="text-decoration-line-through text-white">R500</h2>
+        <h2 class="text-white">Now R399</h2>
+      </div>
+    </section>
+
+    <!-- main image & intro text -->
+    <section id="Pricing">
+        <h1 class="head">Phones</h1><br><br>
+      <div class="container-lg">
+        <div class="row">
+          <div class="col">
+            <div class="p-3 bg-dark text-light">
+              <h3 class="text-white">Red magic 6R</h3>
+              <img src="./6r.jpeg" />
+              <div class="btn-group">
+                <a
+                  href="https://www.gsmarena.com/zte_nubia_red_magic_6r-10929.php"
+                  class="btn btn-dark bg-secondary text-dark"
+                >
+                  more</a
+                >
+                <a href="#" class="btn btn-dark bg-dark text-secondary">Buy</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 bg-dark text-light">
+              <h3 class="text-white">Red magic 6</h3>
+              <img src="./6r.jpeg" />
+              <div class="btn-group">
+                <a
+                  href="https://www.gsmarena.com/zte_nubia_red_magic_6-10773.php"
+                  class="btn btn-dark bg-secondary text-dark"
+                >
+                  more</a
+                >
+                <a href="#" class="btn btn-dark bg-dark text-secondary">Buy</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 bg-dark text-light"><h3 class="text-white">Red magic 6 Pro</h3>
+                <img src="./6r.jpeg" />
+                <div class="btn-group">
+                  <a
+                    href="https://www.gsmarena.com/zte_nubia_red_magic_6_pro-10772.php"
+                    class="btn btn-dark bg-secondary text-dark"
+                  >
+                    more</a
+                  >
+                  <a href="#" class="btn btn-dark bg-dark text-secondary">Buy</a>
+                </div></div>
+          </div>
+          <div class="col">
+            <div class="p-3 bg-dark text-light"><h3 class="text-white">Red magic 5S</h3>
+                <img src="./6r.jpeg" />
+                <div>
+                <div class="btn-group">
+                  <a
+                    href="https://www.gsmarena.com/zte_nubia_red_magic_5s-10339.php"
+                    class="btn btn-dark bg-secondary text-dark"
+                  >
+                    more</a
+                  >
+                  <a href="#" class="btn btn-dark bg-dark text-secondary">Buy</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- main image & intro text -->
+    <section id="About">
+        <h1 class="head">Accessories</h1><br><br>
+        <div class="container-lg">
+            <div class="row">
+              <div class="col">
+                <div class="p-3 bg-dark text-light">
+                  <h3 class="text-white">E-sports handle</h3>
+                  <img src="./esportshandle.webp" />
+                  <div class="btn-group">
+                    <a
+                      href="https://www.gsmarena.com/zte_nubia_red_magic_6r-10929.php"
+                      class="btn btn-dark bg-secondary text-dark"
+                    >
+                      more</a
+                    >
+                    <a href="#" class="btn btn-dark bg-dark text-secondary">Buy</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-3 bg-dark text-light">
+                  <h3 class="text-white">REDMAGIC cyber pods</h3>
+                  <img src="./cyberpods.webp" />
+                  <div class="btn-group">
+                    <a
+                      href="https://www.gsmarena.com/zte_nubia_red_magic_6-10773.php"
+                      class="btn btn-dark bg-secondary text-dark"
+                    >
+                      more</a
+                    >
+                    <a href="#" class="btn btn-dark bg-dark text-secondary">Buy</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-3 bg-dark text-light"><h3 class="text-white">Red magic 6 Ice doc</h3>
+                    <img src="./dock.webp" />
+                    <div class="btn-group">
+                      <a
+                        href="https://www.gsmarena.com/zte_nubia_red_magic_6_pro-10772.php"
+                        class="btn btn-dark bg-secondary text-dark"
+                      >
+                        more</a
+                      >
+                      <a href="#" class="btn btn-dark bg-dark text-secondary">Buy</a>
+                    </div></div>
+              </div>
+              <div class="col">
+                <div class="p-3 bg-dark text-light"><h3 class="text-white">Red magic watch</h3>
+                    <img src="./watch.webp" />
+                   
+                    <div class="btn-group">
+                      <a
+                        href="https://www.gsmarena.com/zte_nubia_red_magic_5s-10339.php"
+                        class="btn btn-dark bg-secondary text-dark"
+                      >
+                        more</a
+                      >
+                      <a href="#" class="btn btn-dark bg-dark text-secondary">Buy</a>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark bg-secondary pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+  
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">REDMAGIC</h5>
+          <p>Establishing ourselves in October 2017 as the gaming arm of Nubia, we’ve sought to harness their skill in smartphone design and combine it with a gamer’s determination in achieving high performance gameplay. </p>
+  
+        </div>
+        <!-- Grid column -->
+  
+       
+  
+        <!-- Grid column -->
+       
+  
+          <!-- Links -->
+         
+  
+        
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+   
+  
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+  
+    </ul>
+    <!-- Social buttons -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
